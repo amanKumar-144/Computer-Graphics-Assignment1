@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>My Application</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+</head>
+
+<body>
+    <div class="container">
+        <canvas id="text" width="600" height="800">
+        <div id="storeModeValue"></div>
+    </canvas>
+
+        <canvas id="myCanvas" width="600" height="800"></canvas>
+    </div>
+</body>
+<script type="module " src="app.js " async defer></script>
+<style>
+    .container {
+        position: relative;
+    }
+    
+    #text {
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: 10;
+    }
+</style>
+
+</html>
